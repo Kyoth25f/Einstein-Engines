@@ -101,8 +101,28 @@
   lightColor: Orange
   texturePath: /Textures/Effects/fire.rsi
   fireStates: 6
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 - type: explosion
+||||||| parent of b1f1be5a79 (Cleanup (#593))
+
+- type: explosion
+  id: Blob
+  damagePerIntensity:
+    groups:
+      Brute: 10
+  tileBreakChance: [0]
+  tileBreakIntensity: [0]
+  lightColor: Red
+  texturePath: /Textures/Effects/fire.rsi
+  fireStates: 3
+
+- type: explosion
+=======
+
+- type: explosion
+>>>>>>> b1f1be5a79 (Cleanup (#593))
   id: HardBomb
   damagePerIntensity:
     types:
@@ -133,3 +153,17 @@
 # STOP
 # BEFORE YOU ADD MORE EXPLOSION TYPES CONSIDER IF AN EXISTING ONE IS SUITABLE
 # ADDING NEW ONES IS PROHIBITIVELY EXPENSIVE
+||||||| parent of 7fe67c7209 (Blob try 2 (#176))
+=======
+
+- type: explosion
+  id: Blob
+  damagePerIntensity:
+    groups:
+      Brute: 10
+  tileBreakChance: [0]
+  tileBreakIntensity: [0]
+  lightColor: Red
+  texturePath: /Textures/Effects/fire.rsi
+  fireStates: 3
+>>>>>>> 7fe67c7209 (Blob try 2 (#176))
